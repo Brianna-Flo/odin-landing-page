@@ -78,6 +78,12 @@ ul {
     flex-wrap: wrap;
 }
 
+.header img {
+    width: 200px;
+    display: flex;
+    flex: auto;
+}
+
 
 /* CSS for section one*/
 .section-one {
@@ -97,6 +103,7 @@ ul {
 .cards {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .item { 
