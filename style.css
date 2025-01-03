@@ -1,10 +1,12 @@
 body {
     font-family: "Roboto", serif;
-    padding: 0;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     border: 0;
 }
 
+/* CSS for the header section of the webpage*/
 .header {
     background-color: #1F2937;
     display: flex;
@@ -74,4 +76,104 @@ ul {
 
 .subtext {
     flex-wrap: wrap;
+}
+
+
+/* CSS for section one*/
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 72px;
+}
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.item { 
+    flex: 1;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-pic {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.caption {
+    width: 150px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/*CSS for section two*/
+.section-two {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 125px 340px 0;
+}
+
+.speaker {
+    align-self: end;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 0px 340px 100px;
+}
+
+/*CSS for section three*/
+.section-three {
+    margin: 100px 200px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 125px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-three .sign-up {
+    border: 2px solid #F9FAF8;
+}
+
+.left-call {
+    color: #E5E7EB;
+}
+
+h2 {
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+/*CSS for footer*/
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 30px 0px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
